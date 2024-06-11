@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesogeos: A Multi-purpose Dataset for Data-driven Wildfire Modeling in the Mediterranean</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77d94c 3px solid;
+        }
+        header h1 {
+            text-align: center;
+            text-transform: uppercase;
+            margin: 0;
+            font-size: 24px;
+        }
+        .main-content {
+            padding: 20px;
+            background: #fff;
+            margin-top: 20px;
+        }
+        .main-content h2 {
+            text-align: center;
+        }
+        .authors, .affiliations, .abstract, .image-section {
+            margin: 20px 0;
+        }
+        .authors p, .affiliations p, .abstract p {
+            margin: 10px 0;
+        }
+        .image-section img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Mesogeos: A Multi-purpose Dataset for Data-driven Wildfire Modeling in the Mediterranean</h1>
+        </div>
+    </header>
+
+    <div class="container main-content">
+        <div class="authors">
+            <h2>Authors</h2>
+            <p>Spyros Kondylatos (1, 2), Ioannis Prapas (1, 2), Gustau Camps-Valls (2), Ioannis Papoutsis (1)</p>
+        </div>
+
+        <div class="affiliations">
+            <h2>Affiliations</h2>
+            <p>(1) Orion Lab, IAASARS, National Observatory of Athens</p>
+            <p>(2) Image & Signal Processing Group, Universitat de València</p>
+        </div>
+
+        <div class="abstract">
+            <h2>Abstract</h2>
+            <p>We introduce mesogeos, a large-scale multi-purpose dataset for wildfire modeling in the Mediterranean. Mesogeos integrates variables representing wildfire drivers (meteorology, vegetation, human activity) and historical records of wildfire ignitions and burned areas for 17 years (2006-2022). It is designed as a cloud-friendly datacube, harmonizing all variables in a standard spatio-temporal grid of 1km x 1km x 1-day resolution. The datacube structure offers opportunities to assess machine learning (ML) usage in various wildfire modeling tasks. We extract two ML-ready datasets that establish distinct tracks to demonstrate this potential: (1) short-term wildfire danger forecasting and (2) final burned area estimation given ignition information. We define appropriate metrics and baselines to evaluate the performance of models in each track. By publishing the datacube, along with the code to create the datasets and models, we encourage the community to foster the implementation of additional tracks for mitigating the increasing threat of wildfires in the Mediterranean.</p>
+        </div>
+
+        <div class="image-section">
+            <h2>Image</h2>
+            <img src="image.png" alt="Mesogeos dataset visualization">
+        </div>
+    </div>
+</body>
+</html>
+
