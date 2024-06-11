@@ -3,17 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mesogeos: A Multi-purpose Dataset</title>
+    <title>Job-SDF</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h1>Mesogeos: A multi-purpose dataset for data-driven wildfire modeling in the Mediterranean</h1>
+        <h1>Job-SDF: A Multi-Granularity Dataset for Job Skill Demand Forecasting and Benchmarking</h1>
         <p class="authors">
-            Spyros Kondylatos (1, 2), Ioannis Prapas (1, 2), Gustau Camps-Valls (2), Ioannis Papoutsis (1)<br>
-            (1) Orion Lab, IAASARS, National Observatory of Athens<br>
-            (2) Image & Signal Processing Group, Universitat de València<br>
-            Accepted at NeurIPS 2023 Datasets and Benchmarks Track
+            Xi Chen(1)∗ , Chuan Qin(2,3)∗ , Chuyu Fang(2), Chao Wang(1), Chen Zhu(2), Fuzhen Zhuang(4), Hengshu Zhu(2), Hui Xiong(5)<br>
+            (1) University of Science and Technology of China<br>
+            (2) Career Science Lab, BOSS Zhipin<br>
+            (3) PBC School of Finance, Tsinghua University<br>
+            (4) Institute of Artificial Intelligence, Beihang University<br>
+            (5) AIT, HKUST (GZ)<br>
+            Submitted to NeurIPS 2024 Datasets and Benchmarks Track
         </p>
         <div class="buttons">
             <a href="link-to-paper" class="button">Paper</a>
@@ -25,7 +28,9 @@
         <div class="abstract">
             <h2>Abstract</h2>
             <p>
-                We introduce mesogeos, a large-scale multi-purpose dataset for wildfire modeling in the Mediterranean. Mesogeos integrates variables representing wildfire drivers (meteorology, vegetation, human activity) and historical records of wildfire ignitions and burned areas for 17 years (2006-2022). It is designed as a cloud-friendly datacube, harmonizing all variables in a standard spatio-temporal grid of 1km x 1km x 1-day resolution. The datacube structure offers opportunities to assess machine learning (ML) usage in various wildfire modeling tasks. We extract two ML-ready datasets that establish distinct tracks to demonstrate its potential: (1) short-term wildfire danger forecasting and (2) final burned area estimation given ignition information. We define appropriate metrics and baselines to evaluate the performance of models in each track. By publishing the datacube, along with the code to create the datasets and models, we encourage the community to foster the implementation of additional tracks for mitigating the increasing threat of wildfires in the Mediterranean.
+                In a rapidly evolving job market, skill demand forecasting is crucial as it enables policymakers and businesses to anticipate and adapt to changes, ensuring that workforce skills align with market needs, thereby enhancing productivity and competitiveness. Additionally, by identifying emerging skill requirements, it directs individuals towards relevant training and education opportunities, promoting continuous self-learning and development. However, the absence of comprehensive datasets presents a significant challenge, impeding research and the advancement of this field. To bridge this gap, we present \textsl{Job-SDF}, a dataset designed to train and benchmark job-skill demand forecasting models. Based on 10.35 million public job advertisements collected from major online recruitment platforms in China between 2021 and 2023, this dataset encompasses monthly recruitment demand for 2,324 types of skills across 521 companies.
+Our dataset uniquely enables evaluating skill demand forecasting models at various granularities, including occupation, company, and regional levels. 
+We benchmark a range of models on this dataset, evaluating their performance in standard scenarios, in predictions focused on lower value ranges, and in the presence of structural breaks, providing new insights for further research. Our code and dataset are publicly accessible via the \url{https://github.com/Job-SDF/benchmark}.
             </p>
         </div>
         <div class="image">
